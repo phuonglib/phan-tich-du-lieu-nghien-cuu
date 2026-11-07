@@ -1,0 +1,169 @@
+                                 Communalities
++----------------------------------------------------------+-------+----------+
+|                                                          |Initial|Extraction|
++----------------------------------------------------------+-------+----------+
+|Trải nghiệm mua hàng trên sàn X tốt hơn tôi kỳ vọng       |   1.00|       .63|
+|Chất lượng sản phẩm nhận được tốt hơn tôi kỳ vọng         |   1.00|       .68|
+|Dịch vụ giao hàng của sàn X tốt hơn tôi kỳ vọng           |   1.00|       .64|
+|Nhìn chung, hầu hết kỳ vọng của tôi về sàn X đều được đáp |   1.00|       .70|
+|ứng                                                       |       |          |
+|Mua hàng trên sàn X giúp tôi tiết kiệm thời gian          |   1.00|       .67|
+|Mua hàng trên sàn X giúp tôi tìm được giá tốt             |   1.00|       .69|
+|Sàn X giúp tôi dễ so sánh và lựa chọn sản phẩm            |   1.00|       .76|
+|Nhìn chung, sàn X hữu ích cho nhu cầu mua sắm của tôi     |   1.00|       .58|
+|Tôi hài lòng với các lần mua hàng trên sàn X              |   1.00|       .72|
+|Mua hàng trên sàn X là một lựa chọn đúng đắn              |   1.00|       .66|
+|Tôi cảm thấy vui khi mua hàng trên sàn X                  |   1.00|       .64|
+|Nhìn chung, tôi hài lòng với sàn X                        |   1.00|       .73|
+|Tôi tin sàn X trung thực với khách hàng                   |   1.00|       .65|
+|Tôi tin sàn X bảo vệ thông tin cá nhân của tôi            |   1.00|       .72|
+|Tôi tin sàn X giải quyết khiếu nại công bằng              |   1.00|       .64|
+|NT4 đã mã hóa ngược: Tôi KHÔNG lo ngại sàn X không giữ cam|   1.00|       .66|
+|kết                                                       |       |          |
+|Tôi dự định tiếp tục mua hàng trên sàn X                  |   1.00|       .68|
+|Tôi sẽ ưu tiên sàn X cho lần mua sắm trực tuyến tới       |   1.00|       .60|
+|Tôi có khả năng mua lại trên sàn X trong 3 tháng tới      |   1.00|       .63|
+|Tôi sẽ mua trên sàn X thường xuyên hơn                    |   1.00|       .57|
++----------------------------------------------------------+-------+----------+
+
+                          Total Variance Explained
++--+--------------------------------+-------------------------------------+
+|  |       Initial Eigenvalues      | Extraction Sums of Squared Loadings |
+|  +-----+-------------+------------+---------+-------------+-------------+
+|  |Total|% of Variance|Cumulative %|  Total  |% of Variance| Cumulative %|
++--+-----+-------------+------------+---------+-------------+-------------+
+|1 | 6.77|        33.9%|       33.9%|     6.77|        33.9%|        33.9%|
+|2 | 2.57|        12.9%|       46.7%|     2.57|        12.9%|        46.7%|
+|3 | 1.55|         7.8%|       54.5%|     1.55|         7.8%|        54.5%|
+|4 | 1.20|         6.0%|       60.5%|     1.20|         6.0%|        60.5%|
+|5 | 1.16|         5.8%|       66.3%|     1.16|         5.8%|        66.3%|
+|6 |  .63|         3.1%|       69.4%|         |             |             |
+|7 |  .61|         3.0%|       72.5%|         |             |             |
+|8 |  .56|         2.8%|       75.3%|         |             |             |
+|9 |  .55|         2.7%|       78.0%|         |             |             |
+|10|  .54|         2.7%|       80.7%|         |             |             |
+|11|  .51|         2.6%|       83.3%|         |             |             |
+|12|  .49|         2.4%|       85.7%|         |             |             |
+|13|  .45|         2.3%|       88.0%|         |             |             |
+|14|  .42|         2.1%|       90.1%|         |             |             |
+|15|  .39|         1.9%|       92.0%|         |             |             |
+|16|  .38|         1.9%|       93.9%|         |             |             |
+|17|  .33|         1.6%|       95.5%|         |             |             |
+|18|  .32|         1.6%|       97.1%|         |             |             |
+|19|  .29|         1.5%|       98.6%|         |             |             |
+|20|  .28|         1.4%|      100.0%|         |             |             |
++--+-----+-------------+------------+---------+-------------+-------------+
+
+                                Component Matrix
++-----------------------------------------------------+-----------------------+
+|                                                     |       Component       |
+|                                                     +---+----+----+----+----+
+|                                                     | 1 |  2 |  3 |  4 |  5 |
++-----------------------------------------------------+---+----+----+----+----+
+|Trải nghiệm mua hàng trên sàn X tốt hơn tôi kỳ vọng  |.64| .06| .36|-.19|-.23|
+|Chất lượng sản phẩm nhận được tốt hơn tôi kỳ vọng    |.64| .13| .36|-.07|-.34|
+|Dịch vụ giao hàng của sàn X tốt hơn tôi kỳ vọng      |.55| .04| .48|-.06|-.32|
+|Nhìn chung, hầu hết kỳ vọng của tôi về sàn X đều được|.71|-.03| .30|-.14|-.30|
+|đáp ứng                                              |   |    |    |    |    |
+|Mua hàng trên sàn X giúp tôi tiết kiệm thời gian     |.61| .33|-.04|-.35| .24|
+|Mua hàng trên sàn X giúp tôi tìm được giá tốt        |.57| .35|-.13|-.38| .27|
+|Sàn X giúp tôi dễ so sánh và lựa chọn sản phẩm       |.66| .41|-.12|-.28| .26|
+|Nhìn chung, sàn X hữu ích cho nhu cầu mua sắm của tôi|.60| .30|-.02|-.17| .31|
+|Tôi hài lòng với các lần mua hàng trên sàn X         |.67| .19|-.08| .45| .13|
+|Mua hàng trên sàn X là một lựa chọn đúng đắn         |.64| .18| .09| .45| .03|
+|Tôi cảm thấy vui khi mua hàng trên sàn X             |.65| .24| .09| .38| .09|
+|Nhìn chung, tôi hài lòng với sàn X                   |.70| .17|-.05| .43| .16|
+|Tôi tin sàn X trung thực với khách hàng              |.43|-.65| .14| .01| .18|
+|Tôi tin sàn X bảo vệ thông tin cá nhân của tôi       |.42|-.68| .12|-.06| .25|
+|Tôi tin sàn X giải quyết khiếu nại công bằng         |.35|-.66| .18|-.03| .20|
+|NT4 đã mã hóa ngược: Tôi KHÔNG lo ngại sàn X không   |.41|-.65| .08|-.03| .27|
+|giữ cam kết                                          |   |    |    |    |    |
+|Tôi dự định tiếp tục mua hàng trên sàn X             |.57|-.20|-.47|-.09|-.29|
+|Tôi sẽ ưu tiên sàn X cho lần mua sắm trực tuyến tới  |.56|-.20|-.48| .01|-.15|
+|Tôi có khả năng mua lại trên sàn X trong 3 tháng tới |.50|-.18|-.54|-.02|-.23|
+|Tôi sẽ mua trên sàn X thường xuyên hơn               |.59|-.21|-.31|-.03|-.29|
++-----------------------------------------------------+---+----+----+----+----+
+
+                                 Communalities
++----------------------------------------------------------+-------+----------+
+|                                                          |Initial|Extraction|
++----------------------------------------------------------+-------+----------+
+|Trải nghiệm mua hàng trên sàn X tốt hơn tôi kỳ vọng       |    .46|       .37|
+|Chất lượng sản phẩm nhận được tốt hơn tôi kỳ vọng         |    .50|       .38|
+|Dịch vụ giao hàng của sàn X tốt hơn tôi kỳ vọng           |    .41|       .27|
+|Nhìn chung, hầu hết kỳ vọng của tôi về sàn X đều được đáp |    .54|       .47|
+|ứng                                                       |       |          |
+|Mua hàng trên sàn X giúp tôi tiết kiệm thời gian          |    .49|       .34|
+|Mua hàng trên sàn X giúp tôi tìm được giá tốt             |    .46|       .29|
+|Sàn X giúp tôi dễ so sánh và lựa chọn sản phẩm            |    .60|       .40|
+|Nhìn chung, sàn X hữu ích cho nhu cầu mua sắm của tôi     |    .42|       .32|
+|Tôi hài lòng với các lần mua hàng trên sàn X              |    .54|       .42|
+|Mua hàng trên sàn X là một lựa chọn đúng đắn              |    .47|       .38|
+|Tôi cảm thấy vui khi mua hàng trên sàn X                  |    .49|       .40|
+|Nhìn chung, tôi hài lòng với sàn X                        |    .57|       .46|
+|Tôi tin sàn X trung thực với khách hàng                   |    .45|       .15|
+|Tôi tin sàn X bảo vệ thông tin cá nhân của tôi            |    .52|       .15|
+|Tôi tin sàn X giải quyết khiếu nại công bằng              |    .44|       .10|
+|NT4 đã mã hóa ngược: Tôi KHÔNG lo ngại sàn X không giữ cam|    .47|       .13|
+|kết                                                       |       |          |
+|Tôi dự định tiếp tục mua hàng trên sàn X                  |    .47|       .28|
+|Tôi sẽ ưu tiên sàn X cho lần mua sắm trực tuyến tới       |    .40|       .27|
+|Tôi có khả năng mua lại trên sàn X trong 3 tháng tới      |    .39|       .22|
+|Tôi sẽ mua trên sàn X thường xuyên hơn                    |    .39|       .30|
++----------------------------------------------------------+-------+----------+
+
+                          Total Variance Explained
++--+--------------------------------+-------------------------------------+
+|  |       Initial Eigenvalues      | Extraction Sums of Squared Loadings |
+|  +-----+-------------+------------+---------+-------------+-------------+
+|  |Total|% of Variance|Cumulative %|  Total  |% of Variance| Cumulative %|
++--+-----+-------------+------------+---------+-------------+-------------+
+|1 | 6.77|        33.9%|       33.9%|     6.12|        30.6%|        30.6%|
+|2 | 2.57|        12.9%|       46.7%|         |             |             |
+|3 | 1.55|         7.8%|       54.5%|         |             |             |
+|4 | 1.20|         6.0%|       60.5%|         |             |             |
+|5 | 1.16|         5.8%|       66.3%|         |             |             |
+|6 |  .63|         3.1%|       69.4%|         |             |             |
+|7 |  .61|         3.0%|       72.5%|         |             |             |
+|8 |  .56|         2.8%|       75.3%|         |             |             |
+|9 |  .55|         2.7%|       78.0%|         |             |             |
+|10|  .54|         2.7%|       80.7%|         |             |             |
+|11|  .51|         2.6%|       83.3%|         |             |             |
+|12|  .49|         2.4%|       85.7%|         |             |             |
+|13|  .45|         2.3%|       88.0%|         |             |             |
+|14|  .42|         2.1%|       90.1%|         |             |             |
+|15|  .39|         1.9%|       92.0%|         |             |             |
+|16|  .38|         1.9%|       93.9%|         |             |             |
+|17|  .33|         1.6%|       95.5%|         |             |             |
+|18|  .32|         1.6%|       97.1%|         |             |             |
+|19|  .29|         1.5%|       98.6%|         |             |             |
+|20|  .28|         1.4%|      100.0%|         |             |             |
++--+-----+-------------+------------+---------+-------------+-------------+
+
+                             Factor Matrix
++--------------------------------------------------------------+------+
+|                                                              |Factor|
+|                                                              +------+
+|                                                              |   1  |
++--------------------------------------------------------------+------+
+|Trải nghiệm mua hàng trên sàn X tốt hơn tôi kỳ vọng           |   .61|
+|Chất lượng sản phẩm nhận được tốt hơn tôi kỳ vọng             |   .62|
+|Dịch vụ giao hàng của sàn X tốt hơn tôi kỳ vọng               |   .52|
+|Nhìn chung, hầu hết kỳ vọng của tôi về sàn X đều được đáp ứng |   .69|
+|Mua hàng trên sàn X giúp tôi tiết kiệm thời gian              |   .58|
+|Mua hàng trên sàn X giúp tôi tìm được giá tốt                 |   .54|
+|Sàn X giúp tôi dễ so sánh và lựa chọn sản phẩm                |   .63|
+|Nhìn chung, sàn X hữu ích cho nhu cầu mua sắm của tôi         |   .57|
+|Tôi hài lòng với các lần mua hàng trên sàn X                  |   .65|
+|Mua hàng trên sàn X là một lựa chọn đúng đắn                  |   .62|
+|Tôi cảm thấy vui khi mua hàng trên sàn X                      |   .63|
+|Nhìn chung, tôi hài lòng với sàn X                            |   .68|
+|Tôi tin sàn X trung thực với khách hàng                       |   .39|
+|Tôi tin sàn X bảo vệ thông tin cá nhân của tôi                |   .38|
+|Tôi tin sàn X giải quyết khiếu nại công bằng                  |   .32|
+|NT4 đã mã hóa ngược: Tôi KHÔNG lo ngại sàn X không giữ cam kết|   .37|
+|Tôi dự định tiếp tục mua hàng trên sàn X                      |   .53|
+|Tôi sẽ ưu tiên sàn X cho lần mua sắm trực tuyến tới           |   .52|
+|Tôi có khả năng mua lại trên sàn X trong 3 tháng tới          |   .47|
+|Tôi sẽ mua trên sàn X thường xuyên hơn                        |   .55|
++--------------------------------------------------------------+------+

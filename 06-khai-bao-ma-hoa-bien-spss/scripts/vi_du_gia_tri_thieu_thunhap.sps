@@ -1,0 +1,9 @@
+GET FILE='/mnt/user-data/outputs/du-lieu-mau/du_lieu_mau_san_x.sav'.
+COMPUTE THUNHAP2 = THUNHAP.
+IF (ID <= 12) THUNHAP2 = 9.
+VALUE LABELS THUNHAP2 1 'Dưới 10 triệu' 2 'Từ 10 đến dưới 20 triệu' 3 'Từ 20 đến dưới 30 triệu' 4 'Từ 30 triệu trở lên' 9 'Không muốn trả lời'.
+FREQUENCIES THUNHAP2 /STATISTICS=NONE.
+DESCRIPTIVES THUNHAP2.
+MISSING VALUES THUNHAP2 (9).
+FREQUENCIES THUNHAP2 /STATISTICS=NONE.
+DESCRIPTIVES THUNHAP2.
