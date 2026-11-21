@@ -9,6 +9,7 @@ GET FILE='../du-lieu/du_lieu_phan_tich.sav'.
 * Phần 1. Independent Samples T-test: nam và nữ có ý định mua lại khác nhau không?
 * Nhóm giới tính "Khác" (mã 3) không thuộc hai nhóm so sánh nên tự động bị loại.
 * ---------------------------------------------------------------------.
+* Nhãn điểm ngoại lai là số thứ tự dòng (83, 228... là phiếu ID 92, 256...). Thêm /ID=ID để ghi nhãn bằng mã phiếu.
 EXAMINE VARIABLES=YD BY GIOITINH /PLOT=BOXPLOT /STATISTICS=NONE.
 T-TEST /VARIABLES=YD HL TANSUAT /GROUPS=GIOITINH(1,2) /MISSING=ANALYSIS /CRITERIA=CI(0.95).
 

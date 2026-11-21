@@ -25,7 +25,8 @@ f <- csem(x, mh, .PLS_weight_scheme_inner = "path", .disattenuate = FALSE)
 W <- f$Estimates$Weight_estimates
 x100 <- (x - 1) / 4 * 100
 kn <- c("XACNHAN", "GIATRI", "HAILONG", "NIEMTIN", "YDINH")
-Wu <- t(sapply(kn, function(k) { w <- W[k, ] / sapply(x, sd); w[W[k, ] == 0] <- 0; w / sum(w) }))
+# Trọng số chưa chuẩn hóa = trọng số chuẩn hóa / độ lệch chuẩn của câu hỏi (độ lệch chuẩn xếp theo thứ tự cột của W)
+Wu <- t(sapply(kn, function(k) { w <- W[k, ] / sapply(x, sd)[colnames(W)]; w[W[k, ] == 0] <- 0; w / sum(w) }))
 LV <- as.matrix(x100) %*% t(Wu[, colnames(x)])
 perf <- colMeans(LV)
 b <- function(y, xs) coef(lm(reformulate(xs, y), data = as.data.frame(LV)))[xs]

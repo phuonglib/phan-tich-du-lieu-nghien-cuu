@@ -26,11 +26,14 @@ m4 <- '
 m1 <- paste("CHUNG =~", paste(cau, collapse = " + "))
 
 chi_so <- c("npar", "chisq", "df", "pvalue", "cfi", "tli", "nfi", "rmsea", "rmsea.ci.lower", "rmsea.ci.upper",
-            "rmsea.pvalue", "srmr", "gfi", "agfi", "aic", "bic")
+            "rmsea.pvalue", "srmr", "gfi_lisrel", "agfi_lisrel", "aic", "bic")
+# Từ lavaan 0.7, "gfi" là GFI tổng thể (kèm khoảng tin cậy); GFI, AGFI kiểu AMOS (và JASP)
+# là "gfi_lisrel", "agfi_lisrel". Hai cột được đổi tên lại thành gfi, agfi trong bảng kết quả.
 bang <- function(du_lieu, thieu) {
   fits <- list(M5 = cfa(m5, du_lieu, missing = thieu), M4 = cfa(m4, du_lieu, missing = thieu),
                M1 = cfa(m1, du_lieu, missing = thieu))
   t <- t(sapply(fits, function(f) fitMeasures(f, chi_so)))
+  colnames(t)[colnames(t) == "gfi_lisrel"] <- "gfi"; colnames(t)[colnames(t) == "agfi_lisrel"] <- "agfi"
   t <- cbind(t, cmin_df = t[, "chisq"] / t[, "df"])
   list(fits = fits, t = t)
 }

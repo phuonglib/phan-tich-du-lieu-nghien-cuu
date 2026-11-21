@@ -35,8 +35,8 @@ write.csv(kq, file.path(here, "cr_ave.csv"), row.names = FALSE, fileEncoding = "
 
 # Đối chiếu với semTools nếu có (omega dùng hệ số chưa chuẩn hóa, gần với CR)
 if (requireNamespace("semTools", quietly = TRUE)) {
-  print(round(semTools::compRelSEM(fit), 3))
-  print(round(semTools::AVE(fit), 3))
+  print(round(unlist(semTools::compRelSEM(fit)), 3))
+  print(round(unlist(semTools::AVE(fit)), 3))
 }
 
 # Minh họa: bỏ câu tải thấp nhất của từng thang đo thì CR, AVE thay đổi thế nào

@@ -74,7 +74,8 @@ COMPUTE NGOAILAI_Z = ANY(1, ABS(ZTUOI) > 3.29, ABS(ZTANSUAT) > 3.29).
 TEMPORARY.
 SELECT IF NGOAILAI_Z = 1.
 LIST /VARIABLES=ID TUOI ZTUOI TANSUAT ZTANSUAT.
-EXAMINE VARIABLES=TANSUAT TUOI /PLOT=BOXPLOT /STATISTICS=EXTREME(5).
+* /ID=ID để nhãn điểm ngoại lai là mã phiếu; thiếu nó, nhãn là số thứ tự dòng (phiếu 99, 108, 300 thành 89, 98, 267).
+EXAMINE VARIABLES=TANSUAT TUOI /ID=ID /PLOT=BOXPLOT /STATISTICS=EXTREME(5).
 
 * ---------------------------------------------------------------------.
 * Bước 7. Phát hiện ngoại lai đa biến: khoảng cách Mahalanobis trên 20 câu Likert.

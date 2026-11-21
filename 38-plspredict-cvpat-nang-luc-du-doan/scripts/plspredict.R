@@ -4,6 +4,8 @@
 # Chỉ số: Q²predict, RMSE, MAE cho từng câu hỏi của biến phụ thuộc cuối (YDINH) và các biến trung gian.
 # Dữ liệu: du_lieu_amos.sav, Casewise deletion theo 20 câu hỏi (254 người), như Bài 33-37.
 # Gói: cSEM 0.7.1. Kết quả dao động nhẹ theo cách chia nhóm ngẫu nhiên (seed 2026).
+# Lưu ý: predict() của cSEM 0.7.1 bỏ qua seed khi lặp nhiều lần, nên mỗi lần chạy lệch nhẹ ở chữ số thứ ba;
+# số liệu trong bài lấy từ lần chạy đã lưu trong plspredict.csv.
 # Cách chạy: LANG=C.UTF-8 Rscript plspredict.R
 # =====================================================================
 suppressMessages({ library(cSEM); library(foreign) })
